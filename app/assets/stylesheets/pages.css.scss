@@ -25,9 +25,10 @@ background-color: #FFF;
 color: #48443B;
 }
 
-.navbar-right h3{
+.navbar-right h1{
 font-family: 'Kaushan Script', cursive;
-color: #000;
+color: #AE9E7C;
+font-size: 1.2em;
 margin-top: 10px;
 }
 
@@ -54,8 +55,9 @@ float: left;
 main h2 {
 text-align: right;
 color: #fff;
-margin-top: 5%;
+margin-top: 20%;
 font-size: 4em;
+line-height: 1.2;
 }
 
 span.name{
@@ -68,6 +70,7 @@ padding: 0 10px;
 .btn{
 position: relative;
 margin-left: 80%;
+margin-top: 3%;
 }
 
 
