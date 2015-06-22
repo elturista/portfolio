@@ -18,7 +18,6 @@ font-size: 1.4em;
 
 nav a {
 color: #AE9E7C;
-background: green;
 }
 
 .navbar-nav > li > a:hover {
@@ -26,10 +25,11 @@ background-color: #FFF;
 color: #48443B;
 }
 
-.myName {
-color: yellow;
-font-size: 25px;
-font-family: Verdana;
+.navbar-right h1 {
+font-size: 1.3em;
+font-family: 'Kaushan Script', cursive;
+color: #AE9E7C;
+margin-top: 7%;
 }
 
 main {
@@ -57,7 +57,7 @@ text-align: right;
 color: #fff;
 font-size: 4em;
 line-height: 1.2;
-margin-top: 15%;
+margin-top: 10%;
 }
 
 span.name{

@@ -1,0 +1,365 @@
+/* line 6, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* line 13, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+nav {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-size: 1.4em;
+}
+
+/* line 19, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+nav a {
+  color: #AE9E7C;
+}
+
+/* line 23, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.navbar-nav > li > a:hover {
+  background-color: #FFF;
+  color: #48443B;
+}
+
+/* line 28, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.navbar-right h1 {
+  font-size: 1.3em;
+  font-family: 'Kaushan Script', cursive;
+  color: #AE9E7C;
+  margin-top: 7%;
+}
+
+/* line 35, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+main {
+  width: 100%;
+}
+
+/* line 39, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.welcome {
+  background: url(https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10636753_10204345889421093_64391345753095629_o.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  width: 100%;
+}
+
+/* line 46, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.navbar {
+  background: #fff;
+  border: none;
+}
+
+/* line 51, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.navbar li {
+  float: left;
+}
+
+/* line 55, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+main h2 {
+  text-align: right;
+  color: #fff;
+  font-size: 4em;
+  line-height: 1.2;
+  margin-top: 10%;
+}
+
+/* line 63, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+span.name {
+  background: #fff;
+  color: #000;
+  padding: 0 10px;
+}
+
+/* line 70, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.btn {
+  position: relative;
+  margin-left: 80%;
+  margin-top: 3%;
+}
+
+/* line 78, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+footer {
+  width: 100%;
+  text-align: right;
+  height: 200px;
+  margin-top: 10%;
+  color: #AE9E7C;
+}
+
+/* line 86, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media {
+  list-style-type: none;
+}
+
+/* line 90, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media li {
+  display: inline-block;
+}
+
+/* line 94, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a {
+  display: block;
+  border-radius: 5px;
+  background: url(http://diythemes.com/thesis/rtfm/wp-content/uploads/2011/10/sample-sprite-set-one.png) no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 102, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.facebook {
+  background-position: -42px -2px;
+}
+
+/* line 106, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.facebook:hover {
+  background-position: -42px -40px;
+}
+
+/* line 110, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.twitter {
+  background-position: -2px -2px;
+}
+
+/* line 114, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.twitter:hover {
+  background-position: -2px -40px;
+}
+
+/* line 118, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.linkedin {
+  background-position: -78px -2px;
+}
+
+/* line 122, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social_media a.linkedin:hover {
+  background-position: -78px -40px;
+}
+
+/* line 126, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.portfolio-banner {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 135, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.portfolio-banner ul {
+  margin: 0;
+  padding: 0;
+  height: 600px;
+}
+
+/* line 141, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.portfolio-banner li {
+  list-style-type: none;
+}
+
+/* line 145, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.portfolio-banner ul li {
+  float: left;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 154, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+}
+
+/* line 162, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: .5;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+
+/* line 177, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+
+/* line 182, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.projects {
+  margin-top: 5%;
+}
+
+/* line 186, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.projects .row {
+  margin-top: 5%%;
+}
+
+/* line 190, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.project {
+  padding: 10px;
+  color: #AE9E7C;
+}
+
+/* line 195, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.project:hover {
+  text-decoration: none;
+  color: #48443B;
+}
+
+/* line 200, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.projects img {
+  width: 100%;
+}
+
+/* line 204, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.project h3 {
+  padding-left: 10px;
+}
+
+/* line 208, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.project p {
+  padding: 10px;
+}
+
+/* line 212, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.aboutme .row {
+  margin-top: 10%;
+}
+
+/* line 216, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.about p {
+  color: #000;
+}
+
+/* line 220, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.about img {
+  position: relative;
+  left: 25%;
+  border-radius: 5%;
+}
+
+/* line 226, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.about h3 {
+  font-size: 3em;
+  color: #48443B;
+  margin-bottom: 5%;
+}
+
+/* line 232, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.about span {
+  text-decoration: underline;
+}
+
+/* line 236, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.about p mark {
+  background-color: #fff;
+  color: #48443B;
+  font-size: 1.2em;
+}
+
+/* line 242, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact {
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* line 247, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact h3 {
+  color: #48443B;
+}
+
+/* line 251, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social {
+  margin-top: 5%;
+  list-style-type: none;
+}
+
+/* line 256, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/aa/48/74/aa4874c9fd2f50a72a1ebd38d8f45493.jpg);
+  display: block;
+  border-radius: 5px;
+  height: 78px;
+  width: 78px;
+  margin: 8px auto;
+}
+
+/* line 265, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.facebook {
+  background-position: 0 0;
+}
+
+/* line 269, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.facebook:hover {
+  background-position: 0 -82px;
+}
+
+/* line 273, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.twitter {
+  background-position: -82px 0;
+}
+
+/* line 277, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.twitter:hover {
+  background-position: -82px -82px;
+}
+
+/* line 281, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.linkedin {
+  background-position: -246px 0;
+}
+
+/* line 285, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.contact_social a.linkedin:hover {
+  background-position: -246px -82px;
+}
+
+/* line 289, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.mail {
+  text-decoration: none;
+  background-color: #48443B;
+  color: #fff;
+  padding: 0 5px;
+}
+
+/* line 296, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.mail:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+/* line 301, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.social {
+  margin-top: 5%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
